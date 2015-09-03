@@ -8,6 +8,9 @@ using WebAPIPractice;
 
 namespace WebAPIPractice.Controllers.v1
 {
+    /// <summary>
+    /// API versioning
+    /// </summary>
     [RoutePrefix("api/{apiVersion:apiVersionConstraint(v1)}/customer")]
     public class IndexController : ApiController
     {
